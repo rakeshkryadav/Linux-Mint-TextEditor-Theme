@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Theme - Symphony
+	Author - Rakesh Kr Yadav
+	Created on - 05/08/2022
+
+-->
+<style-scheme id="symphony" _name="Symphony" version="1.0">
+	<author>Rakesh Kr Yadav</author>
+	<_description>Color scheme using Symphony color palette</_description>
+
+	<!-- Symphony Palette -->
+	<color name="bgColor"				value="#202120"/>
+	<color name="fgColor"				value="#cc3328"/>
+	<color name="selectionColor"		value="#444444"/>
+	<color name="cursorColor"			value="#686a70"/>
+	<color name="currentLine"			value="#404b6d"/>
+	<color name="lineNo"				value="#ffffff"/>
+	<color name="bracketColor"			value="#82827e"/>
+	<color name="commentColor"			value="#0a7213"/>
+	<color name="constantColor"			value="#29a080"/>
+	<color name="specialChar"			value="#086b89"/>
+	<color name="identifierColor"		value="#b7b7b7"/>
+	<color name="statementColor"		value="#30b56a"/>
+	<color name="preprocessorColor"		value="#8843db"/>
+
+	<!-- Global Settings -->
+	<style name="text"						foreground="fgColor" background="bgColor"/>
+	<style name="selection"					foreground="bgColor" background="selectionColor"/>
+	<style name="cursor"					foreground="cursorColor"/>
+	<style name="secondary-cursor"			foreground="cursorColor"/>
+	<style name="current-line"				background="currentLine"/>
+	<style name="line-numbers"				foreground="lineNo" background="bgColor"/>
+	<style name="background-pattern"		background="bgColor"/>
+
+	<!-- Bracket Matching -->
+	<style name="bracket-match"				foreground="bracketColor" background="bgColor"/>
+	<style name="bracket-mismatch"			foreground="#ff0000" background="bgColor"/>
+
+	<!-- Right Margin -->
+	<style name="right-margin"				foreground="#af3f3f" background="bgColor"/>
+
+	<!-- Search Matching -->
+	<style name="search-match"				foreground="bgColor" background="selectionColor"/>
+
+	<!-- Comments -->
+	<style name="def:comment"				foreground="commentColor"/>
+	<style name="def:shebang"				foreground="commentColor" bold="true"/>
+	<style name="def:doc-comment-element"	italic="true"/>
+
+	<!-- Constants -->
+	<style name="def:constant"				foreground="constantColor"/>
+	<style name="def:special-char"			foreground="specialChar"/>
+
+	<!-- Identifiers -->
+	<style name="def:identifier"			foreground="identifierColor"/>
+
+	<!-- Statements -->
+	<style name="def:statement"				foreground="statementColor"/>
+
+	<!-- Types -->
+	<style name="def:type"					foreground="#a157c1"/>
+
+	<!-- Operators -->
+	<style name="def:operator"				foreground="#2bb51e"/>
+
+	<!-- Others -->
+	<style name="def:preprocessor"			foreground="preprocessorColor"/>
+	<style name="def:error"					foreground="#ff0000" bold="true"/>
+	<style name="def:note"					foreground="#6324e2" bold="true"/>
+	<style name="def:underlined"			italic="true" underline="single"/>
+
+</style-scheme>
