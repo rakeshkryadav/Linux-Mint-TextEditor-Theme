@@ -1,5 +1,5 @@
-# Linux-Mint-TextEditor-Theme
-Themes for Linux Mint Text Editor
+# Linux-TextEditor-Theme
+Themes for Linux Text Editor
 
 These are some custom theme for the native Text Editor (xed) of Linux Mint\
 It contains three themes. All themes are dark\
